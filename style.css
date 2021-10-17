@@ -1,0 +1,135 @@
+body{
+    background-image: url("robot.jpg");
+    background-size: cover;
+}
+p:hover{
+    font-size: 80px;
+}
+p{
+    text-align: center;
+    margin-top: 100px;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: cursive;
+    color: wheat;
+}
+p:hover{
+    color: rgb(219, 201, 95)  ;
+}
+.header{
+    width: 100px;
+    height: 100px;
+    border: 2px solid white;
+    border-top-left-radius: 100%;
+    border-top-right-radius: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
+   
+}
+.header:hover{
+    width: 120px;
+    transition: 0.2 ease-in-out;
+}
+.head{
+    width: 60px;
+    height: 40px;
+    border: 2px solid white;
+    border-radius: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    
+    background-color: black;
+}
+.righteye{
+    width: 20px;
+    height: 20px;
+    border: 3px solid black;
+    border-radius: 100%;
+    background-color: white;
+}
+.lefteye{
+    width: 20px;
+    height: 20px;
+    border: 3px solid black;
+    border-radius: 100%;
+    background-color: white;
+}
+.upperbody{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 5px;
+    
+   
+}
+.leftarm{
+    width: 30px;
+    height:100px;
+    border: 2px solid white;
+    border-radius: 25px;
+    margin-right: 5px;
+    
+
+}
+.leftarm:hover{
+    transform-origin: top;
+    transform: rotate(120deg);
+
+}    
+.chest{
+    height: 120px;
+    width: 150px;
+    border: 2px solid white;
+    border-radius: 25px;
+}
+.rightarm{
+    width: 30px;
+    height:100px;
+    border: 2px solid white;
+    border-radius: 25px;
+    margin-left: 5px;
+    
+}
+.rightarm:hover{
+    transform-origin: top;
+    transform: rotate(-120deg);
+
+}
+.lowerbody{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.leftleg{
+    width: 30px;
+    height:100px;
+    border: 2px solid white;
+    border-radius: 25px;
+    margin-left: 7px;
+    transform-origin: top;
+}
+.rightleg:hover{
+    transform-origin: top;
+    transform: rotate(45deg);
+
+}
+.rightleg{
+    width: 30px;
+    height:100px;
+    border: 2px solid white;
+    border-radius: 25px;
+    margin-right: 7px;
+    transform-origin: top;
+
+}
+.leftleg:hover{
+    transform-origin: top;
+    transform: rotate(-45deg);
+
+}
